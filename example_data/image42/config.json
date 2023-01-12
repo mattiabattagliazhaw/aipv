@@ -1,0 +1,1084 @@
+{
+    "bottomElectrode": {
+        "electricTransfer": {
+            "convergenceParameters": {
+                "maxIterations": 10,
+                "norm": "L2",
+                "tolerance": 1e-10,
+                "type": "relative-residual"
+            },
+            "rSquare": {
+                "unit": "ohm",
+                "value": 1e-10
+            }
+        },
+        "mesh": {
+            "boundaryDefinitionsList": {
+                "electricTransfer": [
+                    {
+                        "potential": {
+                            "boundaries": [
+                                {
+                                    "geomtype": "line",
+                                    "id": "edge3",
+                                    "neumann": {
+                                        "current": {
+                                            "scalar": {
+                                                "unit": "A",
+                                                "value": 0.0
+                                            }
+                                        },
+                                        "fluxType": "total-flux"
+                                    }
+                                },
+                                {
+                                    "dirichlet": {
+                                        "potential": {
+                                            "unit": "V",
+                                            "value": 0.0
+                                        }
+                                    },
+                                    "geomtype": "line",
+                                    "id": "edge31"
+                                },
+                                {
+                                    "geomtype": "line",
+                                    "id": "edge1",
+                                    "neumann": {
+                                        "current": {
+                                            "scalar": {
+                                                "unit": "A",
+                                                "value": 0.0
+                                            }
+                                        },
+                                        "fluxType": "total-flux"
+                                    }
+                                },
+                                {
+                                    "geomtype": "line",
+                                    "id": "edge2",
+                                    "neumann": {
+                                        "current": {
+                                            "scalar": {
+                                                "unit": "A",
+                                                "value": 0.0
+                                            }
+                                        },
+                                        "fluxType": "total-flux"
+                                    }
+                                },
+                                {
+                                    "geomtype": "line",
+                                    "id": "edge4",
+                                    "neumann": {
+                                        "current": {
+                                            "scalar": {
+                                                "unit": "A",
+                                                "value": 0.0
+                                            }
+                                        },
+                                        "fluxType": "total-flux"
+                                    }
+                                },
+                                {
+                                    "geomtype": "line",
+                                    "id": "edgeA1",
+                                    "neumann": {
+                                        "current": {
+                                            "scalar": {
+                                                "unit": "A",
+                                                "value": 0.0
+                                            }
+                                        },
+                                        "fluxType": "total-flux"
+                                    }
+                                },
+                                {
+                                    "geomtype": "line",
+                                    "id": "edgeB1",
+                                    "neumann": {
+                                        "current": {
+                                            "scalar": {
+                                                "unit": "A",
+                                                "value": 0.0
+                                            }
+                                        },
+                                        "fluxType": "total-flux"
+                                    }
+                                },
+                                {
+                                    "geomtype": "line",
+                                    "id": "edgeC1",
+                                    "neumann": {
+                                        "current": {
+                                            "scalar": {
+                                                "unit": "A",
+                                                "value": 0.0
+                                            }
+                                        },
+                                        "fluxType": "total-flux"
+                                    }
+                                },
+                                {
+                                    "geomtype": "line",
+                                    "id": "edgeD1",
+                                    "neumann": {
+                                        "current": {
+                                            "scalar": {
+                                                "unit": "A",
+                                                "value": 0.0
+                                            }
+                                        },
+                                        "fluxType": "total-flux"
+                                    }
+                                },
+                                {
+                                    "geomtype": "line",
+                                    "id": "edgeA2",
+                                    "neumann": {
+                                        "current": {
+                                            "scalar": {
+                                                "unit": "A",
+                                                "value": 0.0
+                                            }
+                                        },
+                                        "fluxType": "total-flux"
+                                    }
+                                },
+                                {
+                                    "geomtype": "line",
+                                    "id": "edgeB2",
+                                    "neumann": {
+                                        "current": {
+                                            "scalar": {
+                                                "unit": "A",
+                                                "value": 0.0
+                                            }
+                                        },
+                                        "fluxType": "total-flux"
+                                    }
+                                },
+                                {
+                                    "geomtype": "line",
+                                    "id": "edgeC2",
+                                    "neumann": {
+                                        "current": {
+                                            "scalar": {
+                                                "unit": "A",
+                                                "value": 0.0
+                                            }
+                                        },
+                                        "fluxType": "total-flux"
+                                    }
+                                },
+                                {
+                                    "geomtype": "line",
+                                    "id": "edgeD2",
+                                    "neumann": {
+                                        "current": {
+                                            "scalar": {
+                                                "unit": "A",
+                                                "value": 0.0
+                                            }
+                                        },
+                                        "fluxType": "total-flux"
+                                    }
+                                },
+                                {
+                                    "geomtype": "line",
+                                    "id": "edgeA3",
+                                    "neumann": {
+                                        "current": {
+                                            "scalar": {
+                                                "unit": "A",
+                                                "value": 0.0
+                                            }
+                                        },
+                                        "fluxType": "total-flux"
+                                    }
+                                },
+                                {
+                                    "geomtype": "line",
+                                    "id": "edgeB3",
+                                    "neumann": {
+                                        "current": {
+                                            "scalar": {
+                                                "unit": "A",
+                                                "value": 0.0
+                                            }
+                                        },
+                                        "fluxType": "total-flux"
+                                    }
+                                },
+                                {
+                                    "geomtype": "line",
+                                    "id": "edgeC3",
+                                    "neumann": {
+                                        "current": {
+                                            "scalar": {
+                                                "unit": "A",
+                                                "value": 0.0
+                                            }
+                                        },
+                                        "fluxType": "total-flux"
+                                    }
+                                },
+                                {
+                                    "geomtype": "line",
+                                    "id": "edgeD3",
+                                    "neumann": {
+                                        "current": {
+                                            "scalar": {
+                                                "unit": "A",
+                                                "value": 0.0
+                                            }
+                                        },
+                                        "fluxType": "total-flux"
+                                    }
+                                },
+                                {
+                                    "geomtype": "line",
+                                    "id": "edgeA4",
+                                    "neumann": {
+                                        "current": {
+                                            "scalar": {
+                                                "unit": "A",
+                                                "value": 0.0
+                                            }
+                                        },
+                                        "fluxType": "total-flux"
+                                    }
+                                },
+                                {
+                                    "geomtype": "line",
+                                    "id": "edgeB4",
+                                    "neumann": {
+                                        "current": {
+                                            "scalar": {
+                                                "unit": "A",
+                                                "value": 0.0
+                                            }
+                                        },
+                                        "fluxType": "total-flux"
+                                    }
+                                },
+                                {
+                                    "geomtype": "line",
+                                    "id": "edgeC4",
+                                    "neumann": {
+                                        "current": {
+                                            "scalar": {
+                                                "unit": "A",
+                                                "value": 0.0
+                                            }
+                                        },
+                                        "fluxType": "total-flux"
+                                    }
+                                },
+                                {
+                                    "geomtype": "line",
+                                    "id": "edgeD4",
+                                    "neumann": {
+                                        "current": {
+                                            "scalar": {
+                                                "unit": "A",
+                                                "value": 0.0
+                                            }
+                                        },
+                                        "fluxType": "total-flux"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "conditionsList": {
+                "electricTransfer": {
+                    "potential": {
+                        "conditions": [
+                            {
+                                "material": {
+                                    "heatCapacityPerArea": {
+                                        "unit": "J/(m^2*K)",
+                                        "value": 0.0
+                                    },
+                                    "name": "Metal",
+                                    "rSquare": {
+                                        "unit": "ohm",
+                                        "value": 1e-10
+                                    },
+                                    "sSquare": {
+                                        "unit": "1/F",
+                                        "value": 0.0
+                                    },
+                                    "type": "metalGridSurface"
+                                }
+                            },
+                            {
+                                "material": {
+                                    "heatCapacityPerArea": {
+                                        "unit": "J/(m^2*K)",
+                                        "value": 0.0
+                                    },
+                                    "name": "Shunt1",
+                                    "rSquare": {
+                                        "unit": "ohm",
+                                        "value": 1e-10
+                                    },
+                                    "sSquare": {
+                                        "unit": "1/F",
+                                        "value": 0.0
+                                    },
+                                    "type": "metalGridSurface"
+                                }
+                            },
+                            {
+                                "material": {
+                                    "heatCapacityPerArea": {
+                                        "unit": "J/(m^2*K)",
+                                        "value": 0.0
+                                    },
+                                    "name": "Shunt2",
+                                    "rSquare": {
+                                        "unit": "ohm",
+                                        "value": 1e-10
+                                    },
+                                    "sSquare": {
+                                        "unit": "1/F",
+                                        "value": 0.0
+                                    },
+                                    "type": "metalGridSurface"
+                                }
+                            },
+                            {
+                                "material": {
+                                    "heatCapacityPerArea": {
+                                        "unit": "J/(m^2*K)",
+                                        "value": 0.0
+                                    },
+                                    "name": "Shunt3",
+                                    "rSquare": {
+                                        "unit": "ohm",
+                                        "value": 1e-10
+                                    },
+                                    "sSquare": {
+                                        "unit": "1/F",
+                                        "value": 0.0
+                                    },
+                                    "type": "metalGridSurface"
+                                }
+                            },
+                            {
+                                "material": {
+                                    "heatCapacityPerArea": {
+                                        "unit": "J/(m^2*K)",
+                                        "value": 0.0
+                                    },
+                                    "name": "Shunt4",
+                                    "rSquare": {
+                                        "unit": "ohm",
+                                        "value": 1e-10
+                                    },
+                                    "sSquare": {
+                                        "unit": "1/F",
+                                        "value": 0.0
+                                    },
+                                    "type": "metalGridSurface"
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            "geometry": {
+                "geometryPath": "LaossGeometry.dxf",
+                "hmax": 0.01,
+                "hmin": 0.01,
+                "maxnodes": 50000,
+                "meshLengthUnit": "cm",
+                "meshTool": "netgen",
+                "predefinedGeometryName": "",
+                "type": "dxf"
+            },
+            "zPosition": 0.0
+        },
+        "thickness": {
+            "unit": "m",
+            "value": 0.0
+        }
+    },
+    "characterizations": [
+        {
+            "fluxCurrent": {
+                "component": "topElectrode",
+                "localDistribution": true,
+                "total": false
+            }
+        },
+        {
+            "fluxCurrent": {
+                "component": "bottomElectrode",
+                "localDistribution": true,
+                "total": false
+            }
+        },
+        {
+            "sourceCurrent": {
+                "component": "topElectrode",
+                "localDistribution": true,
+                "total": true
+            }
+        },
+        {
+            "dissipation": {
+                "component": "topElectrode",
+                "localDistribution": true,
+                "total": true
+            }
+        },
+        {
+            "dissipation": {
+                "component": "bottomElectrode",
+                "localDistribution": true,
+                "total": true
+            }
+        },
+        {
+            "electrodeArea": {
+                "component": "semiconductorStack",
+                "localDistribution": false,
+                "total": true
+            }
+        },
+        {
+            "sourcePower": {
+                "component": "topElectrode",
+                "localDistribution": true,
+                "total": true
+            }
+        },
+        {
+            "totalPower": {
+                "component": "topElectrode",
+                "localDistribution": true,
+                "total": true
+            }
+        },
+        {
+            "bcElectricCurrent": {
+                "component": "topElectrode",
+                "localDistribution": false,
+                "total": true
+            }
+        },
+        {
+            "bcElectricCurrent": {
+                "component": "bottomElectrode",
+                "localDistribution": false,
+                "total": true
+            }
+        },
+        {
+            "luminance": {
+                "component": "topElectrode",
+                "localDistribution": true,
+                "total": true
+            }
+        }
+    ],
+    "couplingElectric": {
+        "convergenceParameters": {
+            "maxIterations": 10,
+            "norm": "L2",
+            "tolerance": 1e-10,
+            "type": "relative-residual"
+        },
+        "method": "full-newton",
+        "subdomainCouplingParameters": [
+            {
+                "currentEfficiency": {
+                    "unit": "cd/A",
+                    "value": 1.0
+                },
+                "electricCouplingLaw": "local-wavelength-jv-file",
+                "subdomainName": "electrode",
+                "thermalCouplingLaw": "none",
+                "localJVLambdaFileParameters": {
+                    "importedJVFileType": "setfosElectricFigures",
+                    "jUnit": "A/m^2",
+                    "localJVFile": "Test.csv",
+                    "vUnit": "V",
+                    "wavelength": {
+                        "unit": "m",
+                        "value": 0.0
+                    }
+                }
+            },
+            {
+                "currentEfficiency": {
+                    "unit": "cd/A",
+                    "value": 0.0
+                },
+                "electricCouplingLaw": "local-wavelength-jv-file",
+                "subdomainName": "Metal",
+                "thermalCouplingLaw": "none",
+                "localJVLambdaFileParameters": {
+                    "importedJVFileType": "setfosElectricFigures",
+                    "jUnit": "A/m^2",
+                    "localJVFile": "Test.csv",
+                    "vUnit": "V",
+                    "wavelength": {
+                        "unit": "m",
+                        "value": 0.0
+                    }
+                }
+            },
+            {
+                "currentEfficiency": {
+                    "unit": "cd/A",
+                    "value": 1
+                },
+                "electricCouplingLaw": "local-wavelength-jv-file",
+                "subdomainName": "Shunt1",
+                "thermalCouplingLaw": "none",
+                "localJVLambdaFileParameters": {
+                    "importedJVFileType": "setfosElectricFigures",
+                    "jUnit": "A/m^2",
+                    "localJVFile": "Shunt1.csv",
+                    "vUnit": "V",
+                    "wavelength": {
+                        "unit": "m",
+                        "value": 0.0
+                    }
+                }
+            },
+            {
+                "currentEfficiency": {
+                    "unit": "cd/A",
+                    "value": 1
+                },
+                "electricCouplingLaw": "local-wavelength-jv-file",
+                "subdomainName": "Shunt2",
+                "thermalCouplingLaw": "none",
+                "localJVLambdaFileParameters": {
+                    "importedJVFileType": "setfosElectricFigures",
+                    "jUnit": "A/m^2",
+                    "localJVFile": "Shunt2.csv",
+                    "vUnit": "V",
+                    "wavelength": {
+                        "unit": "m",
+                        "value": 0.0
+                    }
+                }
+            },
+            {
+                "currentEfficiency": {
+                    "unit": "cd/A",
+                    "value": 1
+                },
+                "electricCouplingLaw": "local-wavelength-jv-file",
+                "subdomainName": "Shunt3",
+                "thermalCouplingLaw": "none",
+                "localJVLambdaFileParameters": {
+                    "importedJVFileType": "setfosElectricFigures",
+                    "jUnit": "A/m^2",
+                    "localJVFile": "Shunt3.csv",
+                    "vUnit": "V",
+                    "wavelength": {
+                        "unit": "m",
+                        "value": 0.0
+                    }
+                }
+            },
+            {
+                "currentEfficiency": {
+                    "unit": "cd/A",
+                    "value": 1
+                },
+                "electricCouplingLaw": "local-wavelength-jv-file",
+                "subdomainName": "Shunt4",
+                "thermalCouplingLaw": "none",
+                "localJVLambdaFileParameters": {
+                    "importedJVFileType": "setfosElectricFigures",
+                    "jUnit": "A/m^2",
+                    "localJVFile": "Shunt4.csv",
+                    "vUnit": "V",
+                    "wavelength": {
+                        "unit": "m",
+                        "value": 0.0
+                    }
+                }
+            }
+        ]
+    },
+    "linearSolverParameters": {
+        "solverName": "MKLPardiso"
+    },
+    "nonlinearSolverParameters": {
+        "initialDelta": 1.0,
+        "nonlinearSolverType": "newton"
+    },
+    "simulationTools": {
+        "sweeps": [
+            {
+                "conditions": [
+                    "edge31"
+                ],
+                "id": "Condition.Dirichlet.Potential",
+                "target": "top",
+                "type": "linear",
+                "values": {
+                    "range": {
+                        "end": 0.6475357153204958,
+                        "start": 0.5437454011884737,
+                        "step": 0.10379031413202211
+                    },
+                    "unit": "V"
+                }
+            },
+            {
+                "conditions": [
+                    "electrode",
+                    "Metal"
+                ],
+                "id": "CouplingElectric.LambdaJVCurve.Wavelength",
+                "target": "both",
+                "type": "linear",
+                "values": {
+                    "range": {
+                        "end": 0.6,
+                        "start": 0.0,
+                        "step": 1
+                    },
+                    "unit": "m"
+                }
+            }
+        ]
+    },
+    "timeIntegration": {
+        "iterationStepsExport": false,
+        "maxTimeSteps": 1,
+        "mode": "direct",
+        "oneStepTheta": {
+            "dt": {
+                "unit": "s",
+                "value": 1.0
+            },
+            "theta": 1.0
+        },
+        "startupCurve": {
+            "numSteps": 1
+        },
+        "steadyStateTolerance": 1e-10
+    },
+    "topElectrode": {
+        "electricTransfer": {
+            "convergenceParameters": {
+                "maxIterations": 10,
+                "norm": "L2",
+                "tolerance": 1e-10,
+                "type": "relative-residual"
+            },
+            "rSquare": {
+                "unit": "ohm",
+                "value": 75.65351737411356
+            }
+        },
+        "mesh": {
+            "boundaryDefinitionsList": {
+                "electricTransfer": [
+                    {
+                        "potential": {
+                            "boundaries": [
+                                {
+                                    "neumann": {
+                                        "current": {
+                                            "scalar": {
+                                                "unit": "A",
+                                                "value": 0.0
+                                            }
+                                        },
+                                        "fluxType": "total-flux"
+                                    },
+                                    "geomtype": "line",
+                                    "id": "edge3"
+                                },
+                                {
+                                    "dirichlet": {
+                                        "potential": {
+                                            "unit": "V",
+                                            "value": 0.7
+                                        }
+                                    },
+                                    "geomtype": "line",
+                                    "id": "edge31"
+                                },
+                                {
+                                    "geomtype": "line",
+                                    "id": "edge1",
+                                    "neumann": {
+                                        "current": {
+                                            "scalar": {
+                                                "unit": "A",
+                                                "value": 0.0
+                                            }
+                                        },
+                                        "fluxType": "total-flux"
+                                    }
+                                },
+                                {
+                                    "geomtype": "line",
+                                    "id": "edge2",
+                                    "neumann": {
+                                        "current": {
+                                            "scalar": {
+                                                "unit": "A",
+                                                "value": 0.0
+                                            }
+                                        },
+                                        "fluxType": "total-flux"
+                                    }
+                                },
+                                {
+                                    "geomtype": "line",
+                                    "id": "edge4",
+                                    "neumann": {
+                                        "current": {
+                                            "scalar": {
+                                                "unit": "A",
+                                                "value": 0.0
+                                            }
+                                        },
+                                        "fluxType": "total-flux"
+                                    }
+                                },
+                                {
+                                    "geomtype": "line",
+                                    "id": "edgeA1",
+                                    "neumann": {
+                                        "current": {
+                                            "scalar": {
+                                                "unit": "A",
+                                                "value": 0.0
+                                            }
+                                        },
+                                        "fluxType": "total-flux"
+                                    }
+                                },
+                                {
+                                    "geomtype": "line",
+                                    "id": "edgeB1",
+                                    "neumann": {
+                                        "current": {
+                                            "scalar": {
+                                                "unit": "A",
+                                                "value": 0.0
+                                            }
+                                        },
+                                        "fluxType": "total-flux"
+                                    }
+                                },
+                                {
+                                    "geomtype": "line",
+                                    "id": "edgeC1",
+                                    "neumann": {
+                                        "current": {
+                                            "scalar": {
+                                                "unit": "A",
+                                                "value": 0.0
+                                            }
+                                        },
+                                        "fluxType": "total-flux"
+                                    }
+                                },
+                                {
+                                    "geomtype": "line",
+                                    "id": "edgeD1",
+                                    "neumann": {
+                                        "current": {
+                                            "scalar": {
+                                                "unit": "A",
+                                                "value": 0.0
+                                            }
+                                        },
+                                        "fluxType": "total-flux"
+                                    }
+                                },
+                                {
+                                    "geomtype": "line",
+                                    "id": "edgeA2",
+                                    "neumann": {
+                                        "current": {
+                                            "scalar": {
+                                                "unit": "A",
+                                                "value": 0.0
+                                            }
+                                        },
+                                        "fluxType": "total-flux"
+                                    }
+                                },
+                                {
+                                    "geomtype": "line",
+                                    "id": "edgeB2",
+                                    "neumann": {
+                                        "current": {
+                                            "scalar": {
+                                                "unit": "A",
+                                                "value": 0.0
+                                            }
+                                        },
+                                        "fluxType": "total-flux"
+                                    }
+                                },
+                                {
+                                    "geomtype": "line",
+                                    "id": "edgeC2",
+                                    "neumann": {
+                                        "current": {
+                                            "scalar": {
+                                                "unit": "A",
+                                                "value": 0.0
+                                            }
+                                        },
+                                        "fluxType": "total-flux"
+                                    }
+                                },
+                                {
+                                    "geomtype": "line",
+                                    "id": "edgeD2",
+                                    "neumann": {
+                                        "current": {
+                                            "scalar": {
+                                                "unit": "A",
+                                                "value": 0.0
+                                            }
+                                        },
+                                        "fluxType": "total-flux"
+                                    }
+                                },
+                                {
+                                    "geomtype": "line",
+                                    "id": "edgeA3",
+                                    "neumann": {
+                                        "current": {
+                                            "scalar": {
+                                                "unit": "A",
+                                                "value": 0.0
+                                            }
+                                        },
+                                        "fluxType": "total-flux"
+                                    }
+                                },
+                                {
+                                    "geomtype": "line",
+                                    "id": "edgeB3",
+                                    "neumann": {
+                                        "current": {
+                                            "scalar": {
+                                                "unit": "A",
+                                                "value": 0.0
+                                            }
+                                        },
+                                        "fluxType": "total-flux"
+                                    }
+                                },
+                                {
+                                    "geomtype": "line",
+                                    "id": "edgeC3",
+                                    "neumann": {
+                                        "current": {
+                                            "scalar": {
+                                                "unit": "A",
+                                                "value": 0.0
+                                            }
+                                        },
+                                        "fluxType": "total-flux"
+                                    }
+                                },
+                                {
+                                    "geomtype": "line",
+                                    "id": "edgeD3",
+                                    "neumann": {
+                                        "current": {
+                                            "scalar": {
+                                                "unit": "A",
+                                                "value": 0.0
+                                            }
+                                        },
+                                        "fluxType": "total-flux"
+                                    }
+                                },
+                                {
+                                    "geomtype": "line",
+                                    "id": "edgeA4",
+                                    "neumann": {
+                                        "current": {
+                                            "scalar": {
+                                                "unit": "A",
+                                                "value": 0.0
+                                            }
+                                        },
+                                        "fluxType": "total-flux"
+                                    }
+                                },
+                                {
+                                    "geomtype": "line",
+                                    "id": "edgeB4",
+                                    "neumann": {
+                                        "current": {
+                                            "scalar": {
+                                                "unit": "A",
+                                                "value": 0.0
+                                            }
+                                        },
+                                        "fluxType": "total-flux"
+                                    }
+                                },
+                                {
+                                    "geomtype": "line",
+                                    "id": "edgeC4",
+                                    "neumann": {
+                                        "current": {
+                                            "scalar": {
+                                                "unit": "A",
+                                                "value": 0.0
+                                            }
+                                        },
+                                        "fluxType": "total-flux"
+                                    }
+                                },
+                                {
+                                    "geomtype": "line",
+                                    "id": "edgeD4",
+                                    "neumann": {
+                                        "current": {
+                                            "scalar": {
+                                                "unit": "A",
+                                                "value": 0.0
+                                            }
+                                        },
+                                        "fluxType": "total-flux"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "conditionsList": {
+                "electricTransfer": {
+                    "potential": {
+                        "conditions": [
+                            {
+                                "material": {
+                                    "heatCapacityPerArea": {
+                                        "unit": "J/(m^2*K)",
+                                        "value": 0.0
+                                    },
+                                    "name": "Metal",
+                                    "rSquare": {
+                                        "unit": "ohm",
+                                        "value": 0.0007792297153882992
+                                    },
+                                    "sSquare": {
+                                        "unit": "1/F",
+                                        "value": 0.0
+                                    },
+                                    "type": "metalGridSurface"
+                                }
+                            },
+                            {
+                                "material": {
+                                    "heatCapacityPerArea": {
+                                        "unit": "J/(m^2*K)",
+                                        "value": 0.0
+                                    },
+                                    "name": "Shunt1",
+                                    "rSquare": {
+                                        "unit": "ohm",
+                                        "value": 10
+                                    },
+                                    "sSquare": {
+                                        "unit": "1/F",
+                                        "value": 0.0
+                                    },
+                                    "type": "metalGridSurface"
+                                }
+                            },
+                            {
+                                "material": {
+                                    "heatCapacityPerArea": {
+                                        "unit": "J/(m^2*K)",
+                                        "value": 0.0
+                                    },
+                                    "name": "Shunt2",
+                                    "rSquare": {
+                                        "unit": "ohm",
+                                        "value": 10
+                                    },
+                                    "sSquare": {
+                                        "unit": "1/F",
+                                        "value": 0.0
+                                    },
+                                    "type": "metalGridSurface"
+                                }
+                            },
+                            {
+                                "material": {
+                                    "heatCapacityPerArea": {
+                                        "unit": "J/(m^2*K)",
+                                        "value": 0.0
+                                    },
+                                    "name": "Shunt3",
+                                    "rSquare": {
+                                        "unit": "ohm",
+                                        "value": 10
+                                    },
+                                    "sSquare": {
+                                        "unit": "1/F",
+                                        "value": 0.0
+                                    },
+                                    "type": "metalGridSurface"
+                                }
+                            },
+                            {
+                                "material": {
+                                    "heatCapacityPerArea": {
+                                        "unit": "J/(m^2*K)",
+                                        "value": 0.0
+                                    },
+                                    "name": "Shunt4",
+                                    "rSquare": {
+                                        "unit": "ohm",
+                                        "value": 10
+                                    },
+                                    "sSquare": {
+                                        "unit": "1/F",
+                                        "value": 0.0
+                                    },
+                                    "type": "metalGridSurface"
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            "geometry": {
+                "geometryPath": "LaossGeometry.dxf",
+                "hmax": 0.01,
+                "hmin": 0.01,
+                "maxnodes": 50000,
+                "meshLengthUnit": "cm",
+                "meshTool": "netgen",
+                "predefinedGeometryName": "",
+                "type": "dxf"
+            },
+            "zPosition": 0.0
+        },
+        "thickness": {
+            "unit": "m",
+            "value": 0.0
+        }
+    }
+}

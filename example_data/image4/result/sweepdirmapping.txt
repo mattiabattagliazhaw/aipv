@@ -1,0 +1,3 @@
+Path	Condition.Dirichlet.Potential_top_edge31 (edge31)	CouplingElectric.LambdaJVCurve.Wavelength_both_electrode;Metal (electrode,Metal)
+sweep_1	0.54967	0
+sweep_2	0.627362	0

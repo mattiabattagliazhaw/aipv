@@ -1,0 +1,10 @@
+#
+# Sweep result for LAOSS
+#
+
+# Condition.Dirichlet.Potential_top_edge31 ()	CouplingElectric.LambdaJVCurve.Wavelength_both_electrode;Metal ()	Source Current Top Electrode	Dissipation Top Electrode	Dissipation Bottom Electrode	Electrode area	Power per area	Source Power	Total Power	Boundary condition electric current top electrode	Boundary condition electric current bottom electrode	Luminance	
+5.437454e-01	0.000000e+00	1.845191e-02	2.183795e-05	1.265946e-14	3.600000e-04	2.786984e+01	1.001131e-02	1.003314e-02	0.000000e+00	0.000000e+00	1.791331e-02	
+6.475357e-01	0.000000e+00	2.193934e-01	2.335956e-03	1.765669e-12	3.600000e-04	3.946252e+02	1.397291e-01	1.420651e-01	0.000000e+00	0.000000e+00	2.113093e-01	
+
+CouplingElectric.LambdaJVCurve.Wavelength_both_electrode;Metal	Maximum Power Point (discrete)	Power (W)	Power/area (W/m2)	Maximum Power Point (interpolated)	Power (W)	Power/area (W/m2)
+0.000000e+00	5.437454e-01	1.003314e-02	2.786984e+01	0.000000e+00	0.000000e+00	0.000000e+00

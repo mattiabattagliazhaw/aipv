@@ -1,0 +1,14 @@
+numpy
+tqdm
+pandas
+scipy
+opencv-python
+matplotlib
+Pillow
+dxfwrite
+scikit-image
+tensorflow==2.8
+scikit-learn
+wandb
+plotly
+tf_keras_vis
