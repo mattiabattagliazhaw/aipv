@@ -10,4 +10,4 @@ on line 56 to a value suitable for your computational resources. (Requires a Lao
 them in x_train.npy and x_test.npy. The corresponding model target values are stored in y_train.txt and y_test.txt.
 3. Start the model training by running model_training/aipv_model_training.py
 
-The full dataset used for the results in the paper are available at: https://drive.switch.ch/index.php/s/rrpgg0nkMQARgdc
+The full dataset used for the results in the paper are available at: https://doi.org/10.5281/zenodo.7529545
