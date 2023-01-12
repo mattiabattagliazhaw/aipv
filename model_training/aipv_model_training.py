@@ -10,7 +10,6 @@ from keras.models import Model
 from wandb.keras import WandbCallback
 from sklearn.preprocessing import MinMaxScaler
 from tensorflow.python.keras.layers import *
-from aipv_wandb_callback_2D_regions import AipvWandCallbackUncertainty
 import wandb
 import subprocess
 
@@ -207,19 +206,12 @@ def train_model(batch_size=32, nb_epoch=20):
         test_measurement = np.array(pickle.load(file))
     test_measurement[:,:,:,0]=0
 
-    aipv_callback = AipvWandCallbackUncertainty(data_path, scaler, step=20,
-                                                training_data=(x_train, y_train),
-                                                validation_data=(x_valid, y_valid),
-                                                validation_measurement=test_measurement,
-                                                target_names=wandb.config.targets, image_scaler=image_scaler,
-                                                run_name=wandb.run.name)
-
     test_measurement -= image_scaler[0]
     test_measurement /= image_scaler[1]
 
     model.fit(x_train[:], y_train,shuffle=True, batch_size=batch_size, epochs=nb_epoch, verbose=1,
               validation_data=(x_valid, y_valid),
-              callbacks=[WandbCallback(save_model=True), stoppercallback, aipv_callback])
+              callbacks=[WandbCallback(save_model=True), stoppercallback])
 
 
 if __name__ == '__main__':
